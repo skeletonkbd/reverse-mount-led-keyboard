@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "reverse-mount-led")(type "KiCad")(uri "${KIPRJMOD}/lib/reverse-mount-led/reverse-mount-led.kicad_sym")(options "")(descr ""))
+  (lib (name "kbd")(type "Legacy")(uri "${KIPRJMOD}/lib/kbd/kicad-symbols/kbd.lib")(options "")(descr ""))
+)

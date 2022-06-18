@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "reverse-mount-led")(type "KiCad")(uri "${KIPRJMOD}/lib/reverse-mount-led/reverse-mount-led.pretty")(options "")(descr ""))
+  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/lib/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+)
