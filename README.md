@@ -15,7 +15,7 @@
 | Pro Micro       | -               | 1    |
 | TS-1136-4.3     | Switch          | 1    |
 
-# Builde Guide
+# Build Guide
 
 ## 1. 部品実装
 
