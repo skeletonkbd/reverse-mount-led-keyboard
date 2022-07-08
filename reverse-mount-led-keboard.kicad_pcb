@@ -90,9 +90,9 @@
   (net 0 "")
   (net 1 "col0")
   (net 2 "Net-(D1-Pad2)")
-  (net 3 "Net-(D2-Pad2)")
+  (net 3 "Net-(SW2-Pad2)")
   (net 4 "col1")
-  (net 5 "Net-(D3-Pad2)")
+  (net 5 "Net-(SW3-Pad2)")
   (net 6 "Net-(D4-Pad2)")
   (net 7 "GND")
   (net 8 "Net-(LED1-Pad2)")
@@ -427,7 +427,7 @@
     (pad "1" thru_hole oval locked (at -3.81 -2.54) (size 2.5 2) (drill oval 1.2 0.8) (layers *.Cu "F.SilkS" "B.Mask")
       (net 40 "row2") (pinfunction "1") (pintype "passive") (tstamp 0981ece1-5660-457e-bc8c-8f63dcc9f536))
     (pad "2" thru_hole oval locked (at 2.54 -5.08) (size 2.5 2) (drill oval 1.2 0.8) (layers *.Cu "F.SilkS" "B.Mask")
-      (net 5 "Net-(D3-Pad2)") (pinfunction "2") (pintype "passive") (tstamp d529c14c-6b71-446f-a6fb-bec03d4315ab))
+      (net 5 "Net-(SW3-Pad2)") (pinfunction "2") (pintype "passive") (tstamp d529c14c-6b71-446f-a6fb-bec03d4315ab))
   )
 
   (footprint "kbd:CherryMX_1u" (layer "F.Cu")
@@ -463,7 +463,7 @@
     (pad "1" thru_hole oval locked (at -3.81 -2.54) (size 2.5 2) (drill oval 1.2 0.8) (layers *.Cu "F.SilkS" "B.Mask")
       (net 14 "row1") (pinfunction "1") (pintype "passive") (tstamp 0be455d7-9219-470e-8eb0-7925a3f97f66))
     (pad "2" thru_hole oval locked (at 2.54 -5.08) (size 2.5 2) (drill oval 1.2 0.8) (layers *.Cu "F.SilkS" "B.Mask")
-      (net 3 "Net-(D2-Pad2)") (pinfunction "2") (pintype "passive") (tstamp f886ffaf-1f6a-4587-bede-09aad32c7906))
+      (net 3 "Net-(SW2-Pad2)") (pinfunction "2") (pintype "passive") (tstamp f886ffaf-1f6a-4587-bede-09aad32c7906))
   )
 
   (footprint "kbd:CherryMX_1u" (layer "F.Cu")
@@ -749,7 +749,7 @@
     (pad "1" smd rect locked (at -1.775 0 90) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "col0") (pinfunction "K") (pintype "passive") (tstamp e90e04a4-2fa1-4750-af45-3d38f1d9d020))
     (pad "2" smd rect locked (at 1.775 0 90) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 5 "Net-(D3-Pad2)") (pinfunction "A") (pintype "passive") (tstamp e49247ab-5c22-47ea-ad92-3fa9cf32a411))
+      (net 5 "Net-(SW3-Pad2)") (pinfunction "A") (pintype "passive") (tstamp e49247ab-5c22-47ea-ad92-3fa9cf32a411))
     (model "${KIGITHUB3D}/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -856,7 +856,7 @@
     (pad "1" smd rect locked (at -1.775 0 90) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "col0") (pinfunction "K") (pintype "passive") (tstamp 75af7e93-2196-42a0-9209-de4ddb25ad77))
     (pad "2" smd rect locked (at 1.775 0 90) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 3 "Net-(D2-Pad2)") (pinfunction "A") (pintype "passive") (tstamp cc741e4a-caf8-4fa0-a1eb-7a452183c306))
+      (net 3 "Net-(SW2-Pad2)") (pinfunction "A") (pintype "passive") (tstamp cc741e4a-caf8-4fa0-a1eb-7a452183c306))
     (model "${KIGITHUB3D}/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))

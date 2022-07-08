@@ -23,6 +23,7 @@
         "hue_steps": 10,
         "saturation_steps": 17,
         "brightness_steps": 17,
+        "sleep": true,
         "animations": {
             "all": true
         }
